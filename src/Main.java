@@ -5,7 +5,7 @@ public class Main {
     public static void main(String[] args) {
         Game g = new Game();
         Scanner s = new Scanner(System.in);
-        while (!(g.isWon())) {
+        while (g.isGameInSession()) {
             g.printHangman();
             System.out.println("");
             g.printSlots();
