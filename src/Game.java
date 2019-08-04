@@ -15,6 +15,7 @@ public class Game {
     }
 
     // player has 6 attempts before the hangman is complete and they lose
+    // also a very lazy way to print hangman
     public void printHangman() {
         switch(wrongGuesses) {
             case 0:
